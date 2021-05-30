@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="inputs">
+        <input type="text" placeholder="busca la serie que quieres" id="titulo" >
+        <button onclick="buscar()">busca la serie</button>
+    </div>
+    <div>
+        <input type="text" placeholder="titulo nuevo" id="tituloNuevo" >
+        <input type="text" placeholder="plataforma" id="plataformaNueva">
+        <input type="range" min="0" max="10" id="puntuacion">
+        <button onclick="anyadir()">añadir</button>
+    </div>
+    <div id="contenido">
+
+    </div>
+    <div id="feedback"></div>
+    <script src="index.js"></script>
+</body>
+</html>
